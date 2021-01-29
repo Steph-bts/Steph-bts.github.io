@@ -13,7 +13,7 @@ and open the template in the editor.
         <meta name="author" content="Stéphanie Otto">
         <!-- Bootstrap CDN -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        
+        <link href='../css/cv.css' rel='stylesheet'>
         
         
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -50,7 +50,7 @@ and open the template in the editor.
                                     En autonomie
                                 </li>
                                 <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="pages/appliandroid.html">Application Android</a>
+                                    <a role="menuitem" href="appliandroid.html">Application Android</a>
                                 </li>
                                 <li role="presentation" class="dropdown-item">
                                     <a role="menuitem" href="#">Site Web</a>
@@ -135,27 +135,47 @@ and open the template in the editor.
             </div>
         </nav>
         
-        <div class='jumbotron'>
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading">Programmation sous Android</h1>
+                <p class="lead text-muted">Cette activité m'a permis de développer
+                une application Android avec différents modes de persistances 
+                (locales et distantes) et m'a appris à gérer les adapters.
+                J'ai également pu connaître le mode de déploiement d'une
+                application Android.</p>
+            </div>
+        </section>
+        <div class='album py-5 bg-light'>
             <div class='container'>
-                <h1>Bonjour, et bienvenue sur mon super TP de SLAM5 !</h1>
                 <div class='row'>
-                    <div class='col-md-2'>
-                        <img src='images/AmeliaPilou.jpg' alt='photo de Amelia Pilou'>
+                    <div class='col-md-4'>
+                        <div class='card mb-4 shadow-sm'>
+                            <img class='card-img-top' src="../images/ihmcoach.png" alt="IHM Coach">
+                            <div class="card-body">
+                                <p class="card-text">Construction de l'interface graphique</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class='col-md-10'>
-                        <p>Elle s'appelle Amélia Pilou, elle a 21 ans et ce site a pour
-                        vocation de la présenter en tant que personne, en tant qu'étudiante 
-                        et candidate à l'obtention du BTS SIO (Services Informatiques aux
-                        Organisations) et en tant que future professionnelle de l'informatique</p>
-                        <p><a class="btn btn-secondary"
-                                      href="https://fr.wikipedia.org/wiki/Brevet_de_technicien_sup%C3%A9rieur_-_Services_informatiques_aux_organisations"
-                                      target="_blank" role="button">En savoir plus »</a></p>
+                    <div class='col-md-4'>
+                        <div class='card mb-4 shadow-sm'>
+                            <img class='card-img-top' src="../images/MVC.png" alt="Structuration MVC">
+                            <div class="card-body">
+                                <p class="card-text">Structuration de l'application en MVC</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='col-md-4'>
+                        <div class='card mb-4 shadow-sm'>
+                            <img class='card-img-top' src="../images/adapters.png" alt="Adapters">
+                            <div class="card-body">
+                                <p class="card-text">Affichage des listes sur mobiles (adapters)</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            
-        </div> <!-- Emplacement pour le contenu principal de la page -->
-        <footer>
+        </div>
+    <footer>
             <div class='container'>
                 <div class='row'>
                     <div class='col-lg-4'>
@@ -217,4 +237,6 @@ and open the template in the editor.
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </body>
+    
 </html>
+
